@@ -1,0 +1,26 @@
+--------------------Configuration: GameC - Win32 Release--------------------
+Begining build with project "C:\Home\Mark\Programs\GameC\GameC.dsp", at root.
+Active configuration is Win32 (x86) Console Application (based on Win32 (x86) Console Application)
+
+Project's tools are:
+			"32-bit C/C++ Compiler for 80x86" with flags "/nologo /ML /W4 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_CONSOLE" /D "_MBCS" /Fp"Release/GameC.pch" /YX /Fo"Release/" /Fd"Release/" /FD /c "
+			"Win32 Resource Compiler" with flags "/l 0x809 /d "NDEBUG" "
+			"Browser Database Maker" with flags "/nologo /o"Release/GameC.bsc" "
+			"COFF Linker for 80x86" with flags "kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:console /incremental:no /pdb:"Release/GameC.pdb" /machine:I386 /out:"Release/GameC.exe" "
+			"Custom Build" with flags ""
+			"<Component 0xa>" with flags ""
+
+Creating temp file "C:\Temp\RSP10B1.TMP" with contents </nologo /ML /W4 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_CONSOLE" /D "_MBCS" /Fp"Release/GameC.pch" /YX /Fo"Release/" /Fd"Release/" /FD /c 
+"C:\Home\Mark\Programs\GameC\Game.cpp"
+>
+Creating command line "cl.exe @C:\Temp\RSP10B1.TMP" 
+Creating temp file "C:\Temp\RSP10B2.TMP" with contents <kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:console /incremental:no /pdb:"Release/GameC.pdb" /machine:I386 /out:"Release/GameC.exe" 
+.\Release\Game.obj>
+Creating command line "link.exe @C:\Temp\RSP10B2.TMP" 
+Compiling...
+Game.cpp
+Linking...
+
+
+
+GameC.exe - 0 error(s), 0 warning(s)
